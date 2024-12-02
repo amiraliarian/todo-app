@@ -5,10 +5,28 @@
 .inp{
     width: 50%;
     height: 2rem;
+    text-align: center;
+    background-color: rgb(255, 187, 0);
     border-radius: 100000000000000000000000000px 0 0 1000000000000000000000000000px;
 }
 .btn{
     width: 10%;
     border-radius: 0 100000000000000000000000px 10000000000000000000000000px 0;
 }
+.img-s{
+    width: 40%;
+}
+.d-f-j-c{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color:rgb(36, 36, 255);
+    color: rgb(255, 187, 0);
+    border-radius: 100000000000000000000000px;
+}
+span{
+    border-radius: 100000000000000000000000px;  
+}
+
 

@@ -36,7 +36,7 @@ function renderTodos() {
         <li id="${item.id}" style="color:red">
             <input onchange="handleChangeCheckbox(this,${item.id})" type="checkbox" ${item.isDone ? "checked" : ""} />
             ${item.id === editableitemId ? `<input id="editInput" value="${item.title}" />` : `<span>${item.title}</span>`}
-            <button onclick="deleteItem(${item.id})">delete</button>
+            <button onclick="deleteItem(${item.id})" style"width: 5%;">delete</button>
             ${item.id === editableitemId ? `<button onclick="saveEdit()">save</button>` : `<button onclick="editItem(${item.id})">edit</button>`}
             
         </li>

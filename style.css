@@ -2,10 +2,6 @@
     display: flex;
     justify-content: center;
 }
-.ul{
-    display: flex;
-    justify-content: center;
-}
 .inp{
     width: 50%;
     height: 2rem;

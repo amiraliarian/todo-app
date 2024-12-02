@@ -6,4 +6,8 @@ body{
     width: 50%;
     height: 2rem;
 }
+.btn{
+    width: 10%;
+    border-radius: 0 100000000000000000000000px 10000000000000000000000000px 0;
+}
 

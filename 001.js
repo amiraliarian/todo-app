@@ -33,10 +33,10 @@ function renderTodos() {
 
     const template = todos.map(item => {
         return `
-       <li id="${item.id}" style="color:blue;display: flex;
+       <li id="${item.id}" style="color:blue;margin-left: 1rem;display: flex;
     justify-content: center;">
             <input onchange="handleChangeCheckbox(this,${item.id})" type="checkbox" ${item.isDone ? "checked" : ""} />
-            ${item.id === editableitemId ? `<input id="editInput" value="${item.title}" />` : `<span>${item.title}</span>`}
+            ${item.id === editableitemId ? `<input id="editInput" value="${item.title}" />` : `<span style="width:40%;height: 2rem;border: 1px solid black;">${item.title}</span>`}
             <button onclick="deleteItem(${item.id})" style"width: 5%;">delete</button>
             ${item.id === editableitemId ? `<button onclick="saveEdit()">save</button>` : `<button onclick="editItem(${item.id})">edit</button>`}
             
